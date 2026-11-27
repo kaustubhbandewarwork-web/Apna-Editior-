@@ -1,0 +1,950 @@
+
+html{
+    scroll-behavior: smooth;
+
+}
+
+
+
+.marquee{
+    background-image: url(Screenshot\ 2026-06-18\ 112953.png);
+    color: rgb(255, 255, 255);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 40px;
+    height: 10hv;
+}
+
+.color::after{
+    content:"Eiditor!";
+    color: rgb(4, 0, 255);
+}
+
+.navbar{
+    
+    
+    
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+
+.navbar ul{
+    display: flex;
+    gap: 30px;
+    list-style: none;
+
+
+}
+.navbar label{
+display: none;
+}
+
+#check{
+    display: none;
+}
+
+#check:checked~.navbar ul{
+    display: block;
+}
+
+@media screen  and ( max-width:450px){
+    .navbar label{
+        display: block;
+    }
+
+
+    .navbar ul{
+        display: none;
+        position: absolute;
+        top: 100px;
+        background-color: black;
+        color: aliceblue;
+        width: 100%;
+    }
+
+    .navbar ul li a{
+        padding: 8px;
+        text-decoration: none;
+        color: black;
+        transition: 0.3s;
+    }
+    
+}
+
+.navbar ul li a{
+text-decoration: none;
+}
+
+.ch3 a {
+    text-decoration: none;
+}
+
+
+.head1::after{
+    content: "Editor";
+    color: blue;
+}
+
+
+
+    
+
+
+.head4{
+    background-color: blue;
+    color: aliceblue;
+    border-radius: 20px;
+    border-color: aliceblue;
+    padding-left: 20px;
+    padding-right: 20px;
+    
+
+}
+
+.head5{
+    background-color: blue;
+    color: aliceblue;
+    border-radius: 20px;
+    border-color: aliceblue;
+    padding-left: 20px;
+    padding-right: 20px;
+    
+
+}
+
+.head4:hover{
+    background-color:red ;
+    color: aliceblue;
+    transition: all .2;
+
+}
+
+.head5:hover{
+    background-color:red ;
+    color: aliceblue;
+    transition: all .2;
+}
+
+
+.ch1:hover{
+    background-color:rgb(8, 0, 255) ;
+    color: rgb(255, 255, 255);
+    border: 0.4px solid rgb(0, 0, 0);
+    transition: all .2;
+    border-radius: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    box-shadow: 2px 3px 3px rgb(0, 0, 0) ;
+    transition: all .3s;
+
+
+}
+
+.ch2 :hover{
+
+background-color:rgb(8, 0, 255) ;
+    color: rgb(255, 255, 255);
+    border: 0.4px solid rgb(0, 0, 0);
+    transition: all .2;
+    border-radius: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    box-shadow: 2px 3px 3px rgb(0, 0, 0) ;
+    transition: all .3s;
+}
+
+.ch3 :hover{
+    background-color:rgb(8, 0, 255) ;
+    color: rgb(255, 255, 255);
+    border: 0.4px solid rgb(0, 0, 0);
+    transition: all .2;
+    border-radius: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    box-shadow: 2px 3px 3px rgb(0, 0, 0) ;
+    transition: all .3s;
+    
+}
+
+.ch4 :hover{
+    background-color:rgb(8, 0, 255) ;
+    color: rgb(255, 255, 255);
+    border: 0.4px solid rgb(0, 0, 0);
+    transition: all .2;
+    border-radius: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    box-shadow: 2px 3px 3px rgb(0, 0, 0) ;
+    transition: all .3s;
+}
+
+.ch5 :hover{
+    background-color:rgb(8, 0, 255) ;
+    color: rgb(255, 255, 255);
+    border: 0.4px solid rgb(0, 0, 0);
+    transition: all .2;
+    border-radius: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    box-shadow: 2px 3px 3px rgb(0, 0, 0) ;
+    transition: all .3s;
+}
+
+
+    @media screen  and ( max-width:450px){
+    .balance label{
+        display: block;
+    }}
+
+
+
+.image1{
+    background-image: url( mainphoto.png);
+color: rgb(255, 255, 255);
+color-scheme: dark;
+height: 60vh;
+background-repeat: no-repeat;
+background-size:cover ;
+background-position:center ;
+
+flex-direction: column;
+
+padding-left: 50px;
+padding-top: 50px;
+border-radius: 20px;
+
+
+
+}
+ 
+
+
+
+
+
+
+
+.image2::before{
+    content: " Find Local Video  Editor";
+    color: black;
+}
+
+.image3{
+    color: blue;
+
+}
+
+.image4{
+    color: rgb(0, 0, 0);
+}
+
+.image4::after{
+    content:"In Your Area." ;
+    color: blue;
+}
+
+
+.image5{
+    background-color: rgba(198, 165, 219, 0.915);
+    border-radius: 20px;
+    border: 0.2px solid rgb(53, 26, 69);
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 15px;
+    padding-bottom:15px;
+    width: 300px;
+    justify-content: space-around;
+    align-items: center;
+    display: flex;
+
+}
+
+.image6{
+
+     background-color:rgba(200, 142, 218, 0.796) ;
+    color: rgb(0, 0, 0);
+    border-radius: 20px;
+    border: 0.2px solid rgb(53, 26, 69);
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+
+    
+    
+}
+
+.image7{
+
+    background-color:rgba(200, 142, 218, 0.796) ;
+    color: rgb(0, 0, 0);
+    border-radius: 20px;
+    border: 0.2px solid rgb(53, 26, 69);
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+
+
+    
+    
+    
+}
+
+
+
+
+
+.image6:hover{
+    background-color:blue ;
+    color: whitesmoke;
+    border: 0.4px solid rgb(0, 0, 0);
+    transition: all .2;
+    border-radius: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+
+}
+
+.image7:hover{
+    background-color:blue ;
+    color: whitesmoke;
+    border: 0.4px solid rgb(0, 0, 0);
+    transition: all .2;
+    border-radius: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    
+
+}
+
+.image8{
+
+background-color:rgba(10, 3, 49, 0.796) ;
+    color: rgb(255, 255, 255);
+    border-radius: 20px;
+    border: 0.2px solid rgb(53, 26, 69);
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    justify-content: space-evenly;
+}
+
+
+
+
+.image8:hover{
+    background-color:blue ;
+    color: whitesmoke;
+    border: 0.4px solid rgb(0, 0, 0);
+    transition: all .2;
+    border-radius: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    transition: all .2s;
+    
+
+}
+
+.image9{
+    color: black;
+    
+    justify-content: space-around;
+    align-items: center;
+    
+    
+    
+    
+
+}
+
+.image10{
+    background-color:rgba(10, 3, 49, 0.796) ;
+    color: rgb(255, 255, 255);
+    border-radius: 20px;
+    border: 0.2px solid rgb(53, 26, 69);
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.image10:hover{
+    background-color:blue ;
+    color: whitesmoke;
+    border: 0.4px solid rgb(0, 0, 0);
+    transition: all .2;
+    border-radius: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    transition: all .2s;
+    
+
+}
+
+
+    
+
+
+
+
+
+.apple1{
+    display:flex;
+    justify-content: center;
+}
+
+
+
+
+
+.apple2{
+background-color:rgba(255, 255, 255, 0.796) ;
+justify-content: space-between;
+display: flex;
+text-align: center;
+margin: 10px;
+border: 0.2px solid rgb(255, 255, 255);
+padding-left: 180px;
+padding-right: 180px;
+padding-top: 30px;
+padding-bottom: 30px;
+border-radius: 20px;
+position: relative;
+    
+}
+
+.apple2 div a {
+    text-decoration: none;
+    color: black;
+}
+
+
+
+
+
+.apple3{
+    background-color: rgb(255, 255, 255);
+ border: 0.2px  solid rgb(88, 88, 88);
+    border-radius: 20px;
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    box-shadow: 2px 4px 8px rgb(0, 0, 0) ;
+    
+    
+    
+}
+
+.apple3:hover{
+    padding: 8px;
+    transition: all .3s;
+    background-color: rgb(115, 176, 255);
+    box-shadow: 2px 4px 8px rgb(0, 0, 0) ;
+}
+
+.apple4{
+    background-color: rgb(255, 255, 255);
+    border: 0.2px  solid rgb(88, 88, 88);
+    border-radius: 20px;
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    box-shadow: 2px 4px 8px rgb(0, 0, 0) ;
+    
+
+
+}
+
+
+.apple4:hover{
+    padding: 8px;
+    transition: all .3s;
+    background-color: rgb(235, 160, 235);
+    box-shadow: 2px 4px 8px rgb(0, 0, 0) ;
+}
+
+
+.apple5{
+    background-color: rgb(255, 255, 255);
+    border: 0.2px  solid rgb(88, 88, 88);
+    border-radius: 20px;
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    box-shadow: 2px 4px 8px rgb(0, 0, 0) ;
+    
+    
+}
+
+.apple5:hover{
+    padding: 8px;
+    transition: all .3s;
+    background-color: rgb(255, 196, 129);
+    box-shadow: 2px 4px 8px rgb(0, 0, 0) ;
+}
+
+
+.apple6{
+    background-color: rgb(255, 255, 255);
+    border: 0.2px  solid rgb(88, 88, 88);
+    border-radius: 20px;
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    box-shadow: 2px 4px 8px rgb(0, 0, 0) ;
+
+    
+}
+
+.apple6:hover{
+    padding: 8px;
+    transition: all .3s;
+    background-color: rgb(119, 255, 130);
+    box-shadow: 2px 4px 8px rgb(0, 0, 0) ;
+}
+
+
+.apple7{
+    background-color: rgb(255, 255, 255);
+    border: 0.2px  solid rgb(88, 88, 88);
+    border-radius: 20px;
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    box-shadow: 2px 4px 8px rgb(0, 0, 0) ;
+    
+
+}
+
+.apple7:hover{
+    padding: 8px;
+    transition: all .3s;
+    background-color: rgb(255, 142, 204);
+    box-shadow: 2px 4px 8px rgb(0, 0, 0) ;
+}
+
+ 
+.apple8{
+    background-color: rgb(255, 255, 255);
+    border: 0.2px  solid rgb(88, 88, 88);
+    border-radius: 20px;
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    box-shadow: 2px 4px 8px rgb(0, 0, 0) ;
+    
+}
+
+.apple8:hover{
+    padding: 8px;
+    transition: all .3s;
+    background-color: rgb(255, 106, 106);
+    box-shadow: 2px 4px 8px rgb(0, 0, 0) ;
+}
+
+
+
+
+.bottle1{
+    display: inline-block;
+    
+    
+}
+
+.bottle12{
+    
+    
+    color: rgb(255, 255, 255);
+}
+
+
+.bottle2{
+    background-color:rgba(255, 255, 255, 0.796) ;
+justify-content: space-between;
+display: flex;
+text-align: center;
+margin: 40px;
+border: 0.2px solid rgb(208, 203, 211);
+padding-left: 180px;
+padding-right: 180px;
+padding-top: 30px;
+padding-bottom: 30px;
+border-radius: 20px;
+position: relative;
+    animation-name: prathmesh;
+    animation-duration: 15s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+
+
+}
+
+
+@keyframes prathmesh {
+    0%{
+        background-color: rgb(28, 36, 45);
+        left: 0;
+        top: 0;
+
+    }
+
+
+    25%{
+        background-color: rgb(100, 45, 45);
+        left: 0;
+        top: 0;
+    }
+    
+    50%{
+        background-color: rgb(114, 80, 40);
+        left: 0;
+        top: 0;
+    }
+
+    75%{
+        background-color: rgb(20, 14, 72);
+        left: 0;
+        top: 0;
+    }
+
+
+    100%{
+        background-color: rgb(13, 53, 27);
+        left: 0;
+        top: 0;
+    }
+}
+
+.bottle13{
+    background-color: rgb(9, 5, 51);
+    background-image: url(image3.0.jpg.jpeg);
+    color: aliceblue;
+text-align: center;
+margin: 40px;
+
+padding-left: 180px;
+padding-right: 180px;
+padding-top: 1px;
+padding-bottom: 1px;
+border-radius: 20px;
+position: relative;
+background-repeat: no-repeat;
+        background-size:cover ;
+        background-position:center ;
+    
+
+}
+
+.box{
+    height: 250px;
+    width: 250px;
+    background-image: url(lucky2.jpg.jpeg);
+    position: relative;
+    animation-name: demo;
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    border-radius: 20px;
+    background-repeat: no-repeat;
+        background-size:cover ;
+        background-position:center ;
+}
+
+@keyframes demo {
+    100%{
+        background-image: url(ankiteditor.png); 
+        background-repeat: no-repeat;
+        background-size:cover ;
+        background-position:center ;
+    }
+}
+
+
+.box1{
+    height: 250px;
+    width: 250px;
+    background-image: url(lucky1.jpg.jpeg);
+    position: relative;
+    animation-name: demo1;
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    border-radius: 20px;
+    background-repeat: no-repeat;
+        background-size:cover ;
+        background-position:center ;
+}
+
+@keyframes demo1 {
+    100%{
+        background-image: url(naman.jpeg);
+        background-repeat: no-repeat;
+        background-size:cover ;
+        background-position:center ;
+    }
+}
+
+.box2{
+    height: 250px;
+    width: 250px;
+    background-image: url(lucky3.jpg.jpeg);
+    position: relative;
+    animation-name: demo2;
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    border-radius: 20px;
+    background-repeat: no-repeat;
+        background-size:cover ;
+        background-position:center ;
+}
+
+@keyframes demo2 {
+    100%{
+        background-image: url(chetan.jpeg);
+        background-repeat: no-repeat;
+        background-size:cover ;
+        background-position:center ;
+    }
+}
+
+.box3{
+    height: 250px;
+    width: 250px;
+    background-image: url(palak1.jpg.jpeg);
+    position: relative;
+    animation-name: demo3;
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    border-radius: 20px;
+    background-repeat: no-repeat;
+        background-size:cover ;
+        background-position:center ;
+    
+}
+
+@keyframes demo3 {
+    100%{
+        background-image: url(palak.jpg.jpeg);
+        background-repeat: no-repeat;
+        background-size:cover ;
+        background-position:center ;
+    }
+}
+
+.poorvi{
+    justify-content: center;
+    display: flex;
+    position: relative;
+    bottom: 30px;
+}
+
+
+.bhumi{
+    background-color: rgb(9, 5, 51);
+    background-image: url(Screenshot\ 2026-06-21\ 131551.png);
+    color: aliceblue;
+text-align: center;
+margin: 40px;
+
+
+padding-top: 1px;
+padding-bottom: 10px;
+border-radius: 20px;
+position: relative;
+background-size: cover;
+background-repeat: no-repeat;
+
+
+
+        
+    
+}
+
+
+
+.heading1{
+    
+    display: flex;
+    justify-content: center;
+    position: relative;
+    
+}
+
+.bhumi1 div a {
+    text-decoration: none;
+    color: aliceblue;
+}
+
+.bhumi2 div a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+
+
+
+.bhumi2{
+    background-color: rgb(255, 255, 255);
+ border: 0.4px  solid rgb(0, 0, 0);
+    border-radius: 20px;
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+.bhumi21{
+     background-color: rgb(12, 8, 36);
+ color: aliceblue;
+    border-radius: 20px;
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    box-shadow: 2px 4px 8px rgb(255, 255, 255) ;
+}
+
+
+.bhumi1{
+    background-color: rgb(24, 20, 64);
+ border: 0.4px  solid rgb(0, 0, 0);
+    border-radius: 20px;
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    display: flex;
+    justify-content: space-between;
+    margin: 40px;
+}
+
+.b2bhumi{
+    border-radius: 20px;
+}
+
+
+
+
+.bhumi2:hover{
+    padding: 8px;
+    transition: all .3s;
+    background-color: rgb(12, 8, 36);
+    box-shadow: 2px 4px 8px rgb(255, 255, 255) ;
+    color: aliceblue;
+
+}
+
+
+
+.virat1{
+    background-color:rgba(255, 255, 255, 0.796) ;
+justify-content: space-between;
+display: flex;
+text-align: center;
+margin: 10px;
+border: 0.2px solid rgb(255, 255, 255);
+padding-left: 180px;
+padding-right: 180px;
+padding-top: 30px;
+padding-bottom: 30px;
+border-radius: 20px;
+position: relative;
+}
+
+
+.virat2{
+    background-color: rgb(255, 255, 255);
+ border: 0.2px  solid rgb(88, 88, 88);
+    border-radius: 20px;
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    box-shadow: 2px 4px 8px rgb(124, 124, 124) ;
+    animation-name: nikhil;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    
+    
+    
+}
+
+@keyframes nikhil {
+    0%{
+        background-color: rgb(255, 255, 191);
+        left: 0;
+        top: 0;
+
+    }
+
+
+    25%{
+        background-color: rgb(255, 255, 255);
+        left: 0;
+        top: 0;
+    }
+}
+
+
+
+
+
+.virat2:hover{
+    padding: 8px;
+    transition: all .30s;
+    background-color: rgb(0, 0, 0);
+    box-shadow: 2px 4px 8px rgb(110, 108, 255) ;
+    color: aliceblue;
+
+}
+
+.rahul1 {
+    background-color: rgb(20, 20, 52);
+    color: aliceblue;
+    border-radius: 2px;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.rahul1 ul{
+    
+
+    list-style: none;
+    text-decoration: none;
+
+
+}
+
+.rahul5  li{
+    text-decoration: none;
+    
+
+}
+
+
+.last1{
+    background-color: rgb(255, 255, 255);
+    border-radius: 2px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
